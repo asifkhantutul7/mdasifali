@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="Asif Ali — Developer, App Creator and Founder of CriticX.">
+  <title>Asif Ali | Developer & App Creator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo" aria-label="Asif Ali Home">A<span>.</span> ASIF ALI</a>
+
+  <button class="menu-btn" id="menuBtn"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="nav">☰</button>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#journey">Journey</a>
+    <a href="#community">Community</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="nav-contact" href="#contact">Let's Talk ↗</a>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>ASIF <span>ALI</span></h1>
+
+      <h3>Developer <i>•</i> App Creator <i>•</i> Founder of CriticX</h3>
+
+      <p class="muted hero-text">
+        I build digital experiences, mobile applications and creative projects.
+        I love learning new technologies and turning ideas into reality.
+      </p>
+
+      <div class="actions">
+        <a href="#projects" class="btn primary">Explore My Projects ↘</a>
+        <a href="#about" class="btn secondary">About Me</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-label="Asif Ali developer artwork">
+      <div class="orbit"></div>
+
+      <div class="profile-circle">
+        <img src="images/asif.jpg" alt="Asif Ali" class="profile-image">
+        <small>CREATE. BUILD. GROW.</small>
+      </div>
+
+      <div class="floating-code">&lt; / &gt;</div>
+      <div class="floating-text">DREAM<br>BUILD<br>REPEAT</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section container" id="about">
+    <div class="section-heading">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-symbol">A.</div>
+        <h3>Ideas into Reality</h3>
+        <p class="muted">Learning, building and creating through technology.</p>
+      </div>
+
+      <div class="about-text">
+        <p>
+          I'm Asif Ali, a Diploma in Computer Science & Technology student
+          at CPI Polytechnic, Mirpur, Dhaka, Bangladesh.
+        </p>
+
+        <p>
+          I work on mobile applications, web projects, entertainment platforms
+          and community initiatives under the CriticX brand.
+          My goal is to keep learning and build useful digital products.
+        </p>
+
+        <div class="info-grid">
+          <div><small>Name</small><strong>Asif Ali</strong></div>
+          <div><small>Location</small><strong>Dhaka, Bangladesh</strong></div>
+          <div><small>Education</small><strong>Diploma in CST</strong></div>
+          <div><small>Brand</small><strong>CriticX</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section container" id="skills">
+    <div class="section-heading">
+      <p class="eyebrow">MY TOOLKIT</p>
+      <h2>Skills & <span>Technologies</span></h2>
+      <p class="muted">Technologies and tools I work with and continue to learn.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill"><span>ϟ</span><b>Flutter</b></div>
+      <div class="skill"><span>D</span><b>Dart</b></div>
+      <div class="skill"><span>🔥</span><b>Firebase</b></div>
+      <div class="skill"><span>JS</span><b>JavaScript</b></div>
+      <div class="skill"><span>5</span><b>HTML</b></div>
+      <div class="skill"><span>3</span><b>CSS</b></div>
+      <div class="skill"><span>⌘</span><b>UI Design</b></div>
+      <div class="skill"><span>⚙</span><b>App Development</b></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section container" id="projects">
+    <div class="section-heading heading-row">
+      <div>
+        <p class="eyebrow">WHAT I'M BUILDING</p>
+        <h2>My <span>Projects</span></h2>
+        <p class="muted">Discover my apps, platforms and creative work.</p>
+      </div>
+      <span class="project-label">THE CRITICX UNIVERSE</span>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- CRITICX TV -->
+      <article class="project-card">
+        <div class="project-icon tv">▶</div>
+        <div class="project-type">ENTERTAINMENT</div>
+        <h3>CriticX TV</h3>
+        <p>A live TV streaming app designed for mobile devices and Android TV.</p>
+        <a class="project-link" href="https://criticxtv.online/"
+           target="_blank" rel="noopener noreferrer">Open Website <span>↗</span></a>
+      </article>
+
+      <!-- CRITICX ARENA -->
+      <article class="project-card">
+        <div class="project-icon arena">CX</div>
+        <div class="project-type">GAMING</div>
+        <h3>CRITICX ARENA</h3>
+        <p>A Free Fire tournament platform for players, competitions and gaming events.</p>
+        <a class="project-link" href="https://arena.criticx.live/"
+           target="_blank" rel="noopener noreferrer">Open App <span>↗</span></a>
+      </article>
+
+      <!-- CRITICX NIHONGO -->
+      <article class="project-card">
+        <div class="project-icon nihongo">あ</div>
+        <div class="project-type">EDUCATION</div>
+        <h3>CriticX Nihongo</h3>
+        <p>A Japanese language learning project designed for beginners studying Japanese.</p>
+        <a class="project-link" href="#contact">App Link Coming Soon <span>↗</span></a>
+      </article>
+
+      <!-- CRITICX SHORT VIDEO -->
+      <article class="project-card">
+        <div class="project-icon video">▶</div>
+        <div class="project-type">SOCIAL</div>
+        <h3>CriticX Short Video</h3>
+        <p>A short-video platform focused on creating, discovering and sharing content.</p>
+        <a class="project-link" href="https://criticx.live/"
+           target="_blank" rel="noopener noreferrer">Open Website <span>↗</span></a>
+      </article>
+
+      <!-- MY CPI -->
+      <article class="project-card">
+        <div class="project-icon">🎓</div>
+        <div class="project-type">EDUCATION & MANAGEMENT</div>
+        <h3>My CPI</h3>
+        <p>A college class management application designed to help students manage class schedules and academic activities.</p>
+        <a class="project-link" href="#contact">
+          App Link Coming Soon <span>↗</span>
+        </a>
+      </article>
+
+      <!-- BMI CALCULATOR -->
+      <article class="project-card">
+        <div class="project-icon">⚖️</div>
+        <div class="project-type">HEALTH & FITNESS</div>
+        <h3>BMI Calculator</h3>
+        <p>A simple BMI calculator application to calculate Body Mass Index based on height and weight.</p>
+        <a class="project-link" href="#contact">
+          Explore Project <span>↗</span>
+        </a>
+      </article>
+
+    </div>
+
+    <p class="muted note">
+      Some projects are still in development. More links will be added as official releases become available.
+    </p>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="section container" id="journey">
+    <div class="section-heading">
+      <p class="eyebrow">THE ROAD AHEAD</p>
+      <h2>My <span>Journey</span></h2>
+    </div>
+
+    <div class="journey-grid">
+
+      <div class="journey-item">
+        <span>01</span>
+        <div>
+          <h3>Education</h3>
+          <p class="muted">Diploma in Computer Science & Technology.</p>
+        </div>
+      </div>
+
+      <div class="journey-item">
+        <span>02</span>
+        <div>
+          <h3>App Development</h3>
+          <p class="muted">Learning, experimenting and building digital products.</p>
+        </div>
+      </div>
+
+      <div class="journey-item">
+        <span>03</span>
+        <div>
+          <h3>CriticX Outfitters</h3>
+          <p class="muted">Building a clothing and fashion brand with products, jerseys and creative collections.</p>
+        </div>
+      </div>
+
+      <div class="journey-item">
+        <span>04</span>
+        <div>
+          <h3>CriticX Mini Soccer League</h3>
+          <p class="muted">Organizing local mini-soccer tournaments and building a sports community.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="community-section" id="community">
+    <div class="container community-inner">
+
+      <div class="community-heading">
+        <p class="eyebrow">BEYOND CODING</p>
+        <h2>CriticX by <span>Asif</span></h2>
+        <p>
+          Creating content, sharing ideas, and building a community.
+          Follow my journey across social media.
+        </p>
+      </div>
+
+      <div class="community-cards">
+
+        <!-- FACEBOOK PAGE -->
+        <a class="community-card facebook-card"
+           href="https://www.facebook.com/criticxbyasif"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit CriticX by Asif Facebook Page">
+
+          <div class="community-icon">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          </div>
+
+          <h3>Facebook Page</h3>
+          <p>@criticxbyasif</p>
+
+          <span class="community-visit">
+            Visit Facebook Page <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </span>
+        </a>
+
+        <!-- YOUTUBE CHANNEL -->
+        <a class="community-card youtube-card"
+           href="https://www.youtube.com/@criticxbyasif"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit CriticX by Asif YouTube Channel">
+
+          <div class="community-icon">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </div>
+
+          <h3>YouTube Channel</h3>
+          <p>@criticxbyasif</p>
+
+          <span class="community-visit">
+            Watch Videos & Shorts <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-inner">
+
+      <div>
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea? Let's build<br><span>something great.</span></h2>
+        <p class="muted">For collaborations, business inquiries or project discussions.</p>
+      </div>
+
+      <div class="actions">
+
+        <a class="btn primary"
+           href="https://www.facebook.com/share/1CUaBNCbbM/"
+           target="_blank"
+           rel="noopener noreferrer">
+          <i class="fab fa-facebook-f"></i>&nbsp; Facebook ↗
+        </a>
+
+        <a class="btn secondary"
+           href="https://wa.me/8801406587836"
+           target="_blank"
+           rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i>&nbsp; WhatsApp ↗
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer container">
+  <a href="#home" class="logo">A<span>.</span> ASIF ALI</a>
+  <p class="muted">Turning ideas into digital experiences.</p>
+  <small>© <span id="year"></span> Asif Ali</small>
+  <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
